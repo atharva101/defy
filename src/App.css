@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+body{
+  background-image: linear-gradient(180deg,rgba(127, 40, 196, 1)40%,rgb(43, 8, 71) 10%, rgb(0, 0, 0) 50%); ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+.container{
+    
+  display: flex; /*for responsiveness and to have better control on display of content*/
+  flex-direction: row;
+  flex-wrap:wrap; /*will adjust item according to screen */
+
+  /*sab kuch parent se control hoga in flex */
+
+  /*align-items:center ** if you want to vertically align items**/
+  justify-content:center /** if ---////horizontically---//*/
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.item {
+
+  height: 480px;
+  width: 600px;
+ /* background-image: linear-gradient(180deg,rgba(127, 40, 196, 1),rgb(43, 8, 71) 20%, rgb(0, 0, 0) 50%);/*linear-gradient(rgba(127, 40, 196, 1) 20%,black);*/
+  background-attachment: fixed;
+  flex-grow: 18; /*if you can grow (width) then grow */
   color: white;
+  
+}
+.item #item-1{
+  background-image: black;
+}
+.item-item1{
+  margin:5%;
+  color: white;
+  
+}
+.item-item1 h2{
+  font-weight:lighter;
+  color: yellow;
+}
+.item-item2 h2{
+  font-weight: lighter;
+}
+#item-1 {
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+#item-2 {
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#item-3 {
+ 
 }

@@ -9,7 +9,10 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^2.4.0",
+    "web-vitals": "^2.1.4",
+    "proxy":"https://stg.clubdefy.io/skt/?EIO=3&transport=polling&t=N-BputC&sid=11eda484-3855-499c-8f52-752436189f4f"
   },
   "scripts": {
     "start": "react-scripts start",
